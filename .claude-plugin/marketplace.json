@@ -1,0 +1,17 @@
+{
+  "name": "indahl-fsck",
+  "owner": {
+    "name": "Heuremen LLC",
+    "url": "https://indahl.ai"
+  },
+  "plugins": [
+    {
+      "name": "indahl-fsck",
+      "source": "./",
+      "description": "Check your MCP servers the way fsck checks a disk: run Claude Code's own health check and print only what needs your hand, grouped by the fix. Working servers collapse to one line. Read-only: changes no setting and never prints a query string.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://indahl.ai/connect"
+    }
+  ]
+}
